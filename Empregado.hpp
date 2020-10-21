@@ -9,6 +9,39 @@ class Empregado {
   public:
     double salarioHora;  
     double quotaMensalVendas;  
+  
+    double totalHoras; 
+
+	//metodos
+
+	double gettotalHoras()
+	{
+		return totalHoras;
+	}
+	
+	double getquotaMensalVendas()
+	{
+		return quotaMensalVendas;
+	}
+	
+	double getsalarioHora()
+	{
+		return salarioHora;
+	}
+		
+	void settotalHoras(double input)
+	{
+		totalHoras = input;
+	}	
+	void setquotaMensalVendas (double input)
+	{
+		quotaMensalVendas = input;
+	}	
+	void setsalarioHora (double input)
+	{
+		salarioHora = input;
+	}	
+
 
 
     double pagamentoMes(double horasTrabalhadas) {
